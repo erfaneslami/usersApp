@@ -1,3 +1,4 @@
+import Button from "./Button";
 import styles from "./UserForm.module.scss";
 
 const UserForm = () => {
@@ -11,7 +12,7 @@ const UserForm = () => {
         <label>Age (Years)</label>
         <input type="number" />
       </div>
-      <button type="submit">Add User</button>
+      <Button type="submit">Add User</Button>
     </form>
   );
 };
