@@ -16,6 +16,7 @@ const UserForm = (props) => {
   const submitHandler = (e) => {
     e.preventDefault();
     const userData = {
+      id: Math.random().toString(),
       username: username,
       age: age,
     };

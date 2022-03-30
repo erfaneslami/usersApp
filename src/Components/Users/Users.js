@@ -1,10 +1,10 @@
 import Card from "../Ui/Card";
 import UserList from "./UserList";
 
-const Users = () => {
+const Users = (props) => {
   return (
     <Card>
-      <UserList />
+      <UserList users={props.users} />
     </Card>
   );
 };

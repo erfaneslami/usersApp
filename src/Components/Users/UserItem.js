@@ -3,8 +3,8 @@ import styles from "./UserItem.module.scss";
 const UserItem = (props) => {
   return (
     <li className={styles["user-item"]}>
-      <span>name</span>
-      <span>(age)</span>
+      <span>{props.username}</span>
+      <span>({props.age})</span>
     </li>
   );
 };
