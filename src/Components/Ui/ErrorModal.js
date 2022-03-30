@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Button from "./Button";
 import Card from "./Card";
 import styles from "./ErrorModal.module.scss";
