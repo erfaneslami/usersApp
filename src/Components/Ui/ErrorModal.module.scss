@@ -1,0 +1,19 @@
+.bg {
+  position: absolute;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.658);
+
+  p {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+  }
+}
