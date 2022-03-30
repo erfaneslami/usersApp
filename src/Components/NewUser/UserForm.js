@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../Ui/Button";
 import styles from "./UserForm.module.scss";
 
 const UserForm = () => {

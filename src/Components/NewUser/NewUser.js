@@ -1,11 +1,12 @@
+import Card from "../Ui/Card";
 import "./NewUser.scss";
 import UserForm from "./UserForm";
 
 const NewUser = () => {
   return (
-    <div className="new-user">
+    <Card>
       <UserForm />;
-    </div>
+    </Card>
   );
 };
 

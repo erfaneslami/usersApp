@@ -1,8 +1,14 @@
 import "./App.scss";
-import NewUser from "./Components/NewUser";
+import NewUser from "./Components/NewUser/NewUser";
+import Users from "./Components/Users/Users";
 
 function App() {
-  return <NewUser />;
+  return (
+    <>
+      <NewUser />;
+      <Users />
+    </>
+  );
 }
 
 export default App;
