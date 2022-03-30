@@ -3,9 +3,13 @@ import NewUser from "./Components/NewUser/NewUser";
 import Users from "./Components/Users/Users";
 
 function App() {
+  const saveUserHandler = (userData) => {
+    console.log(userData);
+  };
+
   return (
     <>
-      <NewUser />;
+      <NewUser onAddUser={saveUserHandler} />;
       <Users />
     </>
   );

@@ -2,10 +2,14 @@ import Card from "../Ui/Card";
 import "./NewUser.scss";
 import UserForm from "./UserForm";
 
-const NewUser = () => {
+const NewUser = (props) => {
+  const userHandler = (userData) => {
+    props.onAddUser(userData);
+  };
+
   return (
     <Card>
-      <UserForm />;
+      <UserForm onAddUser={userHandler} />;
     </Card>
   );
 };
